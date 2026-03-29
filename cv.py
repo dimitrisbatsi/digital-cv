@@ -180,7 +180,7 @@ elif page == "Projects / Portfolio":
     tab1, tab2, tab3 = st.tabs(["💻 Software Development", "📊 Data Engineering & BI", "⚙️ Systems & Integrations"])
     
     with tab1:
-        proj1_col1, proj1_col2 = st.columns([1, 0.6])
+        proj1_col1, proj1_col2 = st.columns([0.4, 1])
         with proj1_col1:
             st.image("images/stokk-b2b-app-preview.png", caption="SaaS App Preview")
 
@@ -195,7 +195,7 @@ elif page == "Projects / Portfolio":
         st.write("Development of responsive and highly functional web applications to cover specific business needs, ensuring clean code and scalable architecture.")
 
     with tab2:
-        proj2_col1, proj2_col2 = st.columns([2, 1])
+        proj2_col1, proj2_col2 = st.columns([1, 2])
         with proj2_col1:
             st.subheader("Support Team Time Management Dashboard")
             st.badge("**Tech Stack:** Power BI, Python, SQL", color="red")
