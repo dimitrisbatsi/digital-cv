@@ -182,7 +182,7 @@ elif page == "Projects / Portfolio":
     with tab1:
         proj1_col1, proj1_col2 = st.columns([1, 0.6])
         with proj1_col1:
-            st.image("images/b2b_saas.png", caption="SaaS App Preview")
+            st.image("images/stokk-b2b-app-preview.png", caption="SaaS App Preview")
 
         with proj1_col2:
             st.subheader("B2B SaaS Application (In Progress)")
@@ -201,7 +201,7 @@ elif page == "Projects / Portfolio":
             st.badge("**Tech Stack:** Power BI, Python, SQL", color="red")
             st.write("Designed and developed a comprehensive BI tool to monitor and manage the time allocation of the support team. Handled the entire pipeline from data extraction (ETL) to visualization in Power BI.")
         with proj2_col2:
-            st.image("https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60", width='stretch', caption="Power BI Dashboard")
+            st.image("images/power_bi_dashboard.jpg", caption="Power BI Dashboard")
         
         st.markdown("---")
         st.subheader("Enterprise Data Warehouse Setup")
