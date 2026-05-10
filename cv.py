@@ -180,9 +180,9 @@ elif page == "Projects / Portfolio":
     tab1, tab2, tab3 = st.tabs(["💻 Software Development", "📊 Data Engineering & BI", "⚙️ Systems & Integrations"])
     
     with tab1:
-        proj1_col1, proj1_col2 = st.columns([0.4, 1])
+        proj1_col1, proj1_col2 = st.columns([1, 0.6])
         with proj1_col1:
-            st.image("images/stokk-b2b-app-preview.png", caption="SaaS App Preview")
+            st.image("images/b2b_saas.png", caption="SaaS App Preview")
 
         with proj1_col2:
             st.subheader("B2B SaaS Application (In Progress)")
@@ -195,13 +195,13 @@ elif page == "Projects / Portfolio":
         st.write("Development of responsive and highly functional web applications to cover specific business needs, ensuring clean code and scalable architecture.")
 
     with tab2:
-        proj2_col1, proj2_col2 = st.columns([1, 2])
+        proj2_col1, proj2_col2 = st.columns([2, 1])
         with proj2_col1:
             st.subheader("Support Team Time Management Dashboard")
             st.badge("**Tech Stack:** Power BI, Python, SQL", color="red")
             st.write("Designed and developed a comprehensive BI tool to monitor and manage the time allocation of the support team. Handled the entire pipeline from data extraction (ETL) to visualization in Power BI.")
         with proj2_col2:
-            st.image("images/power_bi_dashboard.jpg", caption="Power BI Dashboard")
+            st.image("https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60", width='stretch', caption="Power BI Dashboard")
         
         st.markdown("---")
         st.subheader("Enterprise Data Warehouse Setup")
